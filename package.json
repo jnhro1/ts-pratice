@@ -4,19 +4,49 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon",
+    "start": "tsc && nodemon index"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/cookie-parser": "^1.4.3",
+    "@types/cors": "^2.8.12",
+    "@types/dotenv": "^8.2.0",
     "@types/express": "^4.17.13",
+    "@types/express-session": "^1.17.4",
+    "@types/helmet": "^4.0.0",
+    "@types/hpp": "^0.2.2",
+    "@types/morgan": "^1.9.3",
     "@types/node": "^17.0.38",
+    "@types/passport": "^1.0.8",
+    "@types/passport-local": "^1.0.34",
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "helmet": "^4.3.1",
+    "hpp": "^0.2.3",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "sequelize": "^6.20.1",
+    "sequelize-cli": "^6.4.1",
     "typescript": "^4.7.2"
   },
   "devDependencies": {
+    "eslint": "^8.16.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
     "nodemon": "^2.0.16",
+    "prettier": "^2.6.2",
     "ts-node": "^10.8.0"
   }
 }
